@@ -16,7 +16,7 @@ div {
   text-align: center;
 }
 
-.class {
+.btn {
   border-radius: 8px;
   display: inline-block;
   font-weight: normal;
@@ -24,7 +24,7 @@ div {
   text-decoration: none;
 }
 
-.btn {
+.btn-primary {
   background-color: #333;
   color: #fff;
 }
