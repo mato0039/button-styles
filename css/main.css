@@ -14,5 +14,58 @@ body {
 div {
   padding: .5rem;
   text-align: center;
+}
+
+a {
+  border-radius: 8px;
   font-weight: normal;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.btn-subtle:hover {
+  background-color: #333;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #000;
+}
+
+.btn-ghost:hover {
+  background-color: #333;
+  border: 3px solid #333;
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: #f33;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
 }
